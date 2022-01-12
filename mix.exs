@@ -33,7 +33,8 @@ defmodule ExWeather.MixProject do
       # HTTP client
       {:tesla, "~> 1.4"},
       {:hackney, "~> 1.17"},
-      {:jason, ">= 1.0.0"}
+      {:jason, ">= 1.0.0"},
+      {:mock, "~> 0.3.0", only: :test}
     ]
   end
 end

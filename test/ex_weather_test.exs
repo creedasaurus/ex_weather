@@ -1,8 +1,7 @@
 defmodule ExWeatherTest do
   use ExUnit.Case
-  doctest ExWeather
 
-  test "greets the world" do
-    assert ExWeather.hello() == :world
+  test "Calculates average of some numbers" do
+    assert ExWeather.average([1, 2, 3, 4, 5]) == 3.0
   end
 end
